@@ -8,4 +8,4 @@ This is a minimal Nepali calendar app, providing only the information you need f
 
 ## Works used 
  - Nepali date formatter :- <https://github.com/sharingapples/nepali-date>
- - Modifiedd nepali date formatter : - <https://github.com/niravcodes/clock_on_wallpaper_mac>
+ - Modified nepali date formatter : - <https://github.com/niravcodes/clock_on_wallpaper_mac>
