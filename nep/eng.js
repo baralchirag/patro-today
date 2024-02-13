@@ -22,5 +22,5 @@ var dayName = dayNames[dayIndex];
 
 var dateString =  day + ' ' + monthName + ' ' + year;
 
-document.getElementById("englishDate").innerHTML =dayName + ' , '+ '  ' + dateString ;
+document.getElementById("englishDate").innerHTML =dayName + ', '+ '  ' + dateString ;
 
