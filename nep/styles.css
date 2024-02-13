@@ -18,12 +18,13 @@ body {
 }
 
 .englishDate { 
-    font-size: 45px;
+    font-size: 35px;
     color: black;
-    padding-top: 29px;
+    padding-top: 35px;
     font-weight: bolder;
 }
 
 .centered-text {
     text-align: center; 
 }
+

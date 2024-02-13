@@ -19,6 +19,8 @@ if (day < 10) {
 var monthName = monthNames[monthIndex];
 var dayName = dayNames[dayIndex];
 
+
 var dateString =  day + ' ' + monthName + ' ' + year;
 
-document.getElementById("englishDate").innerHTML = dateString ;
+document.getElementById("englishDate").innerHTML =dayName + ' , '+ '  ' + dateString ;
+
