@@ -1,4 +1,4 @@
-# Minimal Nepali Calander 
+# Minimal Nepali Calendar 
 This is a minimal Nepali calendar app, providing only the information you need for day-to-day life, including a Bikram Sambat date and Gregorian date.
 
 ## Features
