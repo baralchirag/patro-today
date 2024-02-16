@@ -11,10 +11,6 @@ body {
     font-size: 65px;
     color: rgb(255, 46, 46); 
     padding-top: 130px;
-    }
-
-.centered-text {
-    text-align: center; 
 }
 
 .englishDate { 
@@ -28,3 +24,30 @@ body {
     text-align: center; 
 }
 
+
+.button {
+    background-color: #6c757d; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px; 
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bolder;
+    margin-top: 90px;
+    
+}
+
+.button:hover {
+    background-color: rgb(248, 83, 83);
+}
+
+.nepaliDate {
+    display: inline-block; 
+    padding-right: 50px;
+    padding-left: 350px;
+}
