@@ -5,18 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bikram Sambat Date Display</title>
 <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
 
-  <div id="nepaliDate" class="nepaliDate centered-text">Nepali Date Content  </div> 
+  <div class="container">
+    <div id="nepaliDate" class="nepaliDate centered-text">Nepali Date Content</div>
+    <div class="button-container">
+      <button class="button" onclick="copyContent()">Copy date</button>
+    </div>
+  </div>
 
-    <button class= "button" onclick="copyContent()">Copy date</button>
- 
-  
-  
   <div id="englishDate" class="englishDate centered-text">English Date Content</div>
- <script>
+
+<script>
   const nepaliDateElement = document.getElementById('nepaliDate');
   const copyContent = async () => {
     try {
@@ -26,13 +27,12 @@
       console.error('Failed to copy: ', err);
     }  
   }
- </script>
+</script>
 
 <script src="nepaliDateGet.js"></script>
 <script type="module" src="eng.js"></script>
 <script type="module" src="layout.js"></script>
 <script type="module" src="copy.js"></script>
-
 
 </body>
 </html>
